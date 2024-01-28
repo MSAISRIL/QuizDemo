@@ -19,6 +19,7 @@ public class QuizControllerDemo {
 	
 	@Autowired
 	IQuizService iquizservice;
+
 	
 	@PostMapping("/addQuestions")
 	ResponseEntity<QuizEntityDemo> addQuestion(@RequestBody  QuizEntityDemo q){
